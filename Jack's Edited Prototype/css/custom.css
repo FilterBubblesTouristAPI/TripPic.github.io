@@ -1,0 +1,100 @@
+.title {
+    text-align: center;
+    font-size: 8em;
+    padding-top: 0.5em;
+    font-family: 'Pacifico', cursive;
+}
+
+.header {
+    background-color: white;
+}
+
+/* .sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 2em;
+    z-index: 100;
+    border-top: 2em;
+    background: white;
+} */
+
+/* buttons */
+#day_night {
+    font-size: 2em;
+    height: 3em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+#explore {
+    height: 2.5em;
+    font-size: 2em;
+    background-color: #928F8F;
+    border: #6D6B6B;
+    color: white;
+    
+}
+
+.night {
+    background-color: #4D4B4B;
+    color: white;
+}
+
+.night:hover {
+    color: white;
+    background-color: #636161;
+    border: #4D4B4B;
+}
+
+#searchbar {
+    height: 2em;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+/* images */
+img {
+    max-width: 30em;
+    padding: 3em;
+    margin: auto;
+}
+
+img:hover {
+    transition: all 0.3s linear;
+	opacity: 0.5;
+}
+
+/* menu slider */
+body{ margin: 0px; text-align: center; }
+#pagetop{
+	position: fixed;
+	top: 0px;
+	width:100%;
+	height: 320px;
+	background: #06C;
+	color: #FFF;
+	font-size: 23px;
+	padding-top: 50px;
+	transition: height 0.3s linear 0s, padding 0.3s linear 0s;
+	overflow:hidden;
+}
+#pagetop > #menu{
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+	background: #004A95;
+	height: 50px;
+	transition: height 0.3s linear 0s;
+}
+#wrapper{ margin-top: 230px; }
+
+/* queries */
+@media (max-width: 1200px) {
+    #searchbar {
+        height: 3em;
+        font-size: 2em;
+    }
+}
+
