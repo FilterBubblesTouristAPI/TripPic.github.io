@@ -36,7 +36,7 @@ function getInstagramByLatLon(latitude, longitude, tags)
   var URL = 'https://api.instagram.com/v1/media/search?lat=' 
           + latitude 
           + '&lng=' + longitude 
-          + '&distance=1000' 
+          + '&distance=2000' 
           + '&client_id=27d6ee649376455285f2e25345debf3a'
   
   getMediaFromInstagramByURL(URL)  
