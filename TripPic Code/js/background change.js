@@ -7,7 +7,7 @@
 // }
 
 var currentTime = new Date().getHours();
-        if (7 <= currentTime && currentTime < 14) {
+        if (7 <= currentTime && currentTime < 18) {
             if (document.body) {
                 document.body.className = "day";
             }
